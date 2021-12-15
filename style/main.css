@@ -344,7 +344,7 @@ footer .innerFooter .contactHolder h3 {
 
 @media screen and (max-width: 460px) {
   footer .innerFooter .contactHolder h3 {
-    font-size: 1.3em;
+    font-size: 1em;
   }
 }
 
