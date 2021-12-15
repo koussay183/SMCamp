@@ -241,8 +241,11 @@ footer {
         font-size: 2em;
       }
       h3 {
-        font-size: 1.2em;
+        font-size: 2em;
         padding-left: 0.5em;
+        @media screen and (max-width: 460px) {
+          font-size: 1.3em;
+        }
       }
     }
     .logoHolder {

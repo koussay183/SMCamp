@@ -338,8 +338,14 @@ footer .innerFooter .contactHolder h2 {
 }
 
 footer .innerFooter .contactHolder h3 {
-  font-size: 1.2em;
+  font-size: 2em;
   padding-left: 0.5em;
+}
+
+@media screen and (max-width: 460px) {
+  footer .innerFooter .contactHolder h3 {
+    font-size: 1.3em;
+  }
 }
 
 footer .innerFooter .logoHolder {
